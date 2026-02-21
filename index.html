@@ -1,0 +1,128 @@
+<html>
+  <head>
+    
+
+    <style>
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+      body{
+        margin:0px;
+        padding:0px;
+        font-family: "Poppins", sans-serif;
+        font-weight:300;
+        color:white;
+        background: radial-gradient(circle at 20% 35%, #0f172a 0%, #020617 100%);
+
+        
+      }
+      nav{
+        display:flex;
+        justify-content:space-around;
+        align-items:center;
+        background-color: rgba(2, 6, 23, 0.8);;
+        width:100%;
+        margin-top:5px;
+        height:6rem;
+      }
+    ul{
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        
+      }
+      ul li{
+        list-style-type:none;
+        margin:0px 23px;
+        text-align:center;
+        border-radius:5px;
+        
+      }
+      nav ul li:hover{
+        font-size:20px;
+        color:#8cb4fc;
+      }
+      .navleft{
+        font-size:20px;
+        font-weight:400;
+      }
+      .hero{
+        display:flex;
+        justify-content:space-evenly;
+        height:300px;
+        
+      }
+      .heroleft{
+        height:500px;
+        width:400px;
+        margin-top:150px;
+        font-size:20px;
+        text-align:left;
+        font-weight:900;
+      
+        
+      }
+      span{
+        color:#9b3bf4;
+      }
+
+      .heroright img{
+        height:500px;
+        width:400px;
+        margin-top:20px;
+        background-size:cover;
+      }
+      .hero{
+        height:650px;
+        widht:1000px;
+      }
+  
+        
+      
+      
+        
+      
+    </style>
+  </head>
+  <body>
+    <header>
+     <nav>
+       <div class="navleft">PORTFOILIO</div>
+       <di class="navright">
+         <ul>
+           <li>Home</li>
+           <li>About</li>
+           <li>Services</li>
+           
+           <li>Contact Me</li>
+         </ul>
+       </div>
+     </nav>
+    </header>
+    <main>
+      <div class="hero">
+       <div class="heroleft">
+         <p>Hi my name is Manoj</p>
+         <pre>And i am a <span id="element"></span>
+         </pre>
+       </div>
+       <div class="heroright">
+         <img src="https://cdn-icons-png.flaticon.com/512/2210/2210153.png" alt="Web Dev Icon" width="200">
+
+
+       </div/>
+      </div>
+      <hr>
+    
+    </main>
+    
+    <script src="https://unpkg.com/typed.js@3.0.0/dist/typed.umd.js"></script>
+    <script>
+    var typed = new Typed('#element', {
+      strings: ['Fronted Developer.', 'Fresher.','Engineering Student'],
+      typeSpeed: 50,
+      loop:true
+    });
+  </script>
+
+  </body>
+</html>
